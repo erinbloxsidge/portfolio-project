@@ -39,7 +39,7 @@ p,
 }
 
 .hero h1 {
-  font-size: 68px;
+  font-size: 90px;
   font-weight: bold;
 }
 .hero h2 {
@@ -67,6 +67,7 @@ p,
 
 .strapline {
   text-align: center;
+  font-family: var(--default-font-family);
 }
 
 .btn-light {
@@ -86,6 +87,29 @@ p,
   color: var(--secondary-color);
 }
 
-#contact-me {
+.contact-email {
+  font-size: 28px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contact-email:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.about-headers {
   font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-bottom: 25px;
+  }
+  .hero h1 {
+    font-size: 60px;
+  }
+  .about-headers {
+    font-size: 30px;
+  }
 }
