@@ -25,7 +25,8 @@ h6 {
   font-family: var(--heading-font-family);
 }
 
-p, .navbar-brand {
+p,
+.navbar-brand {
   font-family: var(--default-font-family);
 }
 
@@ -58,6 +59,12 @@ p, .navbar-brand {
   font-weight: bold;
 }
 
+.btn-branding:hover {
+  border: var(--secondary-color) solid 1px;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+}
+
 .strapline {
   text-align: center;
 }
@@ -69,14 +76,16 @@ p, .navbar-brand {
 
 .btn-light:hover {
   border: var(--secondary-color) solid 1px;
-  background-color: white;
 }
 
 .social-media a {
-color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .social-media a:hover {
   color: var(--secondary-color);
 }
-]
+
+#contact-me {
+  font-size: 40px;
+}
