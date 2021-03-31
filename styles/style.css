@@ -82,21 +82,11 @@ p,
 
 .social-media a {
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 .social-media a:hover {
   color: var(--secondary-color);
-}
-
-.contact-email {
-  font-size: 28px;
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-.contact-email:hover {
-  color: var(--secondary-color);
-  text-decoration: underline;
 }
 
 .about-headers {
